@@ -6,7 +6,6 @@ def granpeq(): #Esta función te dice que número es mayor que otro
         mensaje=''
     elif(a>b):
         mensaje='El número mayor es {a} y el menor es {b} '.format(b=b,a=a)
-
     else:
         mensaje='El número mayor es {b} y el menor es {a} '.format(a=a,b=b)
     return mensaje
